@@ -28,20 +28,20 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int number1, number2;
 
-    printf("Input 1 :\n ");
-    scanf("%d", &num1);
+    printf("Input 1:\n");
+    scanf("%d", &number1);
 
-    printf("Input 2 :\n ");
-    scanf("%d", &num2);
+    printf("Input 2:\n");
+    scanf("%d", &number2);
 
-    if (num1 < num2) {
-        printf("%d lower than %d\n", num1, num2);
-    } else if (num1 > num2) {
-        printf("%d greater than %d\n", num1, num2);
+    if (number1 < number2) {
+        printf("Number1 lower than Number2\n");
+    } else if (number1 > number2) {
+        printf("Number1 greater than Number2\n");
     } else {
-        printf("%d is equal to %d\n", num1, num2);
+        printf("Number1 equal Number2\n");
     }
 
     return 0;
